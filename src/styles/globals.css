@@ -21,21 +21,21 @@
 
 @layer base {
 	.headings {
-		@apply text-5xl font-bold text-dark;
+		@apply text-[32px] font-bold text-dark md:text-5xl;
 	}
 	.header {
-		@apply text-4xl font-bold text-dark;
+		@apply text-2xl font-bold text-dark md:text-4xl;
 	}
 	.title {
-		@apply text-[22px] font-semibold text-dark;
+		@apply text-lg font-semibold text-dark md:text-[22px] md:leading-[33px];
 	}
 	.sub-title {
-		@apply text-xl font-medium text-dark;
+		@apply text-base font-medium text-dark md:text-xl;
 	}
 	.body {
-		@apply text-base font-normal text-dark;
+		@apply text-sm font-normal text-dark md:text-base;
 	}
 	.caption {
-		@apply text-sm font-bold text-dark;
+		@apply text-xs font-bold text-dark md:text-sm;
 	}
 }
