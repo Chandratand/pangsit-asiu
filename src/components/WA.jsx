@@ -10,7 +10,7 @@ const WA = () => {
     >
       <div className="flex items-center gap-2">
         <Image
-          src="/assets/icon/whatsapp.svg"
+          src="/assets/icon/Whatsapp.svg"
           alt="Whatsapp Number"
           width={26}
           height={26}
